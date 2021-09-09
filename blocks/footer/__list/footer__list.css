@@ -1,0 +1,17 @@
+.footer__list {
+	list-style: none;
+	text-align: center;
+	display: flex;
+	padding: 0;
+	margin: 14px 0 14px 0;
+}
+@media screen and (max-width:768px) {
+	.footer__list {
+		margin-top: 0;
+		padding-left: 0;
+		display: block;
+	}
+	  .footer__list:last-of-type {
+        margin-bottom: 0;
+    }
+}
